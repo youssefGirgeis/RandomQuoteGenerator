@@ -7,16 +7,18 @@ var quotes = [
   {
     quote: '',
     source: '',
+    citation: '',
+    year: '',
+    tags: []
   }
 ];
 
-function getRandomQuote(){
+function getRandomQuote(randomNumber){
 
-  return quote;
+  return quotes[randomNumber];
 }
 
 
 function printQuote(){
 
-  var quote = getRandomQuote();
 }
